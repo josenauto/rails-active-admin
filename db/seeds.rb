@@ -44,5 +44,3 @@ Book.create! :name => "The Silmarillion", :price => 20.00, :author => tolkien, :
 Book.create! :name => "The NeverEnding Story", :price => 20.00, :author => ende, :genre => fantasy
 Book.create! :name => "The Lean Startup", :price => 20.00, :author => ries, :genre => business
 Book.create! :name => "Hooked", :price => 20.00, :author => eyal, :genre => business
-
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
