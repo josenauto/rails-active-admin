@@ -13,6 +13,10 @@ ActiveAdmin.register Book do
 #   permitted
 # end
 
+  filter :name
+  filter :author, :as => :check_boxes
+  filter :genre, :as => :check_boxes
+  filter :price
 
   index do
     # Columns displayed
